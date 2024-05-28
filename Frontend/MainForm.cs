@@ -35,7 +35,7 @@ namespace StoryGeneratorFrontEnd
             try
             {
                
-                var config = SpeechConfig.FromSubscription("b67a344dc0c7484dac469f80f1cf3d01", "eastus");
+                var config = SpeechConfig.FromSubscription("Azure Key", "region");
                 synthesizer = new SpeechSynthesizer(config);
                
             }
